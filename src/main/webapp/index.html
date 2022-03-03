@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Books List</title>
+</head>
+<body>
+	<div class="container">
+		<h2>Add a book the library catalog</h2>
+
+
+		<form action="addBookServlet" method="post">
+			Publisher: <input type="text" name="publisher"> 
+			Title: <input type="text" name="title"> 
+			Genre: <input type="text" name="genre">
+			<input type="submit"value="Add Book">
+		</form>
+		<br /> <a href="viewAllBooksServlet">View the library's book list</a> <br />
+		<a href="viewAllBooksListServlet">View all borrowers lists</a> <br /> 
+		<a href="addBooksForListServlet">Create a new borrower list</a>
+	</div>
+</body>
+</html>
